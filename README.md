@@ -22,7 +22,7 @@ Create a `.env` file and add it at the main route of the template and add the fo
 ```javascript
 MONGO_PASSWORD=<Your_mongodb_password> //This is your atlas mongodb cloud password
 ```
-If you can set your local mongodb ,you can use `mongodb://localhost:27017/agroapi` as the `MONGOURI` (defined in `Database.js`)
+If you can set your local mongodb ,you can use `mongodb://localhost:27017/starter_app` as the `MONGOURI` (defined in `Database.js`)
 
 ## Install node_modules
 
