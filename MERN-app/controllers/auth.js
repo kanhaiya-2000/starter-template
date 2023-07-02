@@ -1,6 +1,6 @@
 const User = require("../models/User")
 const bcrypt = require("bcrypt");
-const { AssignToken } = require("../middlewares");
+const { AssignToken } = require("../middleware");
 
 function getHash(password, callback) {
     bcrypt.genSalt(10, (err, salt) => {
